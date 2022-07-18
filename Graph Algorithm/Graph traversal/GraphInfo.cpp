@@ -2,7 +2,7 @@
 #define vi vector<int> 
 #define vb vector<bool>
 using namespace std;
-
+// graph info for undirected graph
 void addEdge(int v1, int v2, vi adj[]) {
   adj[v1].push_back(v2);
   adj[v2].push_back(v1);
